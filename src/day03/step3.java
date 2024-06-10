@@ -8,7 +8,7 @@ public class step3 {
 
         Scanner scanner = new Scanner(System.in);
 
-assert
+
         //문제8 : 사다리꼴 넓이 구하기[윗변과 밑변 높이를 입력받아 출력하기 , 소수점 첫째 자리까지 출력하시오.
         //        계산식) 사다리꼴 계산식 = > (윗변 + 밑변) * 높이 / 2
 
@@ -33,6 +33,7 @@ assert
         System.out.print("ID : " ); String id = scanner.next();
         System.out.print("PW : " ); String pw = scanner.next();
 
+        System.out.println(id.equals("admin") && pw.equals("1234")? "로그인성공" : "로그인실패");
         System.out.println(id.equals("admin") && pw.equals("1234")? "로그인성공" : "로그인실패");
 
 
